@@ -62,7 +62,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "QWERTY";
         };
 
         layer_1 {
@@ -112,7 +112,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
-         display-name = "layer4";
+
+            display-name = "layer4";
             sensor-bindings = <&scroll_encoder>;
         };
     };
